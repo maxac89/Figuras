@@ -1,3 +1,5 @@
+package com.mycompany.formasoop;
+
 public class Shape {
     private Coordinate coordinate;
 

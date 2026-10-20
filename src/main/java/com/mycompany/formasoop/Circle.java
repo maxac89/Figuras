@@ -1,3 +1,5 @@
+package com.mycompany.formasoop;
+
 public class Circle extends Shape{
 
     // Attributes

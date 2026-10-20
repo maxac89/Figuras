@@ -1,20 +1,22 @@
-public class Triangle extends Shape{
+package com.mycompany.formasoop;
+
+public class Rectangle extends Shape{
 
     // Attributes
     private float base;
     private float height;
 
     // Constructors
-    public Triangle() {
+    public Rectangle(){
 
     }
 
-    public Triangle(float base, float height){
+    public Rectangle(float base, float height){
         this.base = base;
         this.height = height;
     }
 
-    public Triangle(float base, float height, int x, int y){
+    public Rectangle(float base, float height, int x, int y){
         this.base = base;
         this.height = height;
         super(x, y);
@@ -40,13 +42,11 @@ public class Triangle extends Shape{
     // Other methods
     @Override
     float calculateArea() {
-        return (this.base * this.height) / 2;
+        return base * height;
     }
 
     @Override
     float calculatePerimeter() {
-        double hypotenuse = Math.sqrt(Math.pow(this.base, 2)
-                + Math.pow(this.height, 2));
-        return (this.base + this.height + (float) hypotenuse);
+        return 2 * (base + height);
     }
 }
