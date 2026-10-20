@@ -15,8 +15,8 @@ public class Circle extends Shape{
     }
 
     public Circle(float radius, int x, int y){
-        this.radius = radius;
         super(x, y);
+        this.radius = radius;
     }
 
     // Setters and getters

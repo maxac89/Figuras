@@ -17,9 +17,9 @@ public class Rectangle extends Shape{
     }
 
     public Rectangle(float base, float height, int x, int y){
+        super(x, y);
         this.base = base;
         this.height = height;
-        super(x, y);
     }
 
     // Setters and getters

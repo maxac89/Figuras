@@ -17,9 +17,9 @@ public class Triangle extends Shape{
     }
 
     public Triangle(float base, float height, int x, int y){
+        super(x, y);
         this.base = base;
         this.height = height;
-        super(x, y);
     }
 
     // Setters and getters
